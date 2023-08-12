@@ -17,12 +17,17 @@ public class Main
     public static final String MOD_ID = "lzhs_science_and_reallife_mod";
     public Main(){
         IEventBus ModEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        //Fluid
         FluidRegistryHandle.FLUIDS.register(ModEventBus);
         FluidRegistryHandle.FLUID_TYPE.register(ModEventBus);
+        //Item
         ItemRegistryHandle.ITEMS.register(ModEventBus);
+        //Block
         BlockRegistryHandle.BLOCKS.register(ModEventBus);
+        //Village
         VillageRegistryHandle.POI_TYPES.register(ModEventBus);
         VillageRegistryHandle.VILLAGER_PROFESSIONS.register(ModEventBus);
+        //Tab
         CreativeModeTabRegistryHandle.CREATIVE_MODE_TABS.register(ModEventBus);
         MinecraftForge.EVENT_BUS.register(this);
     }
