@@ -13,17 +13,7 @@ public class ElementContent {
         EleNameList.add("helium");
         EleNameList.add("lithium");
         EleNameList.add("beryllium");
-        EleNameList.add("Boron");
-        EleNameList.add("Carbon");
-        EleNameList.add("Nitrogen");
-        EleNameList.add("Oxygen");
-        EleNameList.add("Fluorine");
-        EleNameList.add("Neon");
-        EleNameList.add("Sodium");
-        EleNameList.add("Sodium");
-        EleNameList.add("Aluminum");
         EleNameList.add("iron");
-        EleNameList.add("gold");
 
         //检测是否包含所有元素，若不包含，则加上一个other，other=-1.0f（不包含）
         for (int i = 0; i < 4; i++) {
