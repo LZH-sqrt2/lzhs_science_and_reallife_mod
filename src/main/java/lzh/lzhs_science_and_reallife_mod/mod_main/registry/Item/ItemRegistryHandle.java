@@ -23,6 +23,7 @@ public class ItemRegistryHandle {
     public static final RegistryObject<Item> itemHandheldElementAnalyzer = ITEMS.register("handheld_element_analyzer", HandheldElementAnalyzer::new);
     public static final RegistryObject<Item> itemHandheldGasCompositionAnalyzer = ITEMS.register("handheld_gas_composition_analyzer", IngotItem::new);
     public static final RegistryObject<Item> itemReagentCanner = ITEMS.register("reagent_canner", () -> new BlockItem(BlockRegistryHandle.blockReagentCanner.get(), new Item.Properties()));
+    public static final RegistryObject<Item> itemCopperBlock = ITEMS.register("copper_block", () -> new BlockItem(BlockRegistryHandle.blockCopperBlock.get(), new Item.Properties()));
 
     public static RegistryObject<Item> itemLiquidOxygenBucket = ItemRegistryHandle.ITEMS.register("liquid_oxygen_bucket",
             () -> new BucketItem(FluidRegistryHandle.LiquidOxygen, new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1)));

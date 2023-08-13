@@ -15,6 +15,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 public class Main
 {
     public static final String MOD_ID = "lzhs_science_and_reallife_mod";
+
     public Main(){
         IEventBus ModEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         //Fluid

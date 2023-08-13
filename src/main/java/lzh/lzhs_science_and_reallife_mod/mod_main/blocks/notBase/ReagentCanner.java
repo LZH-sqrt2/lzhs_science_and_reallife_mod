@@ -1,4 +1,4 @@
-package lzh.lzhs_science_and_reallife_mod.mod_main.blocks.notBase.ReagentCanner;
+package lzh.lzhs_science_and_reallife_mod.mod_main.blocks.notBase;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;

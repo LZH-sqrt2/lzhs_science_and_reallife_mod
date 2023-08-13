@@ -18,6 +18,7 @@ public class CreativeModeTabRegistryHandle {
             .displayItems((parameters, output) -> {
                 output.accept(ItemRegistryHandle.itemCopperIngot.get());
                 output.accept(ItemRegistryHandle.itemPlasticSheeting.get());
+                output.accept(ItemRegistryHandle.itemCopperBlock.get());
             })
             .build());
 

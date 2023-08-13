@@ -1,9 +1,6 @@
 package lzh.lzhs_science_and_reallife_mod.mod_main.items.notBeas.HandheldElementAnalyzer;
 
-import lzh.lzhs_science_and_reallife_mod.mod_main.Main;
 import lzh.lzhs_science_and_reallife_mod.mod_main.util.ways.getBlockRegistryName;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
