@@ -1,0 +1,13 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "lzhs_science_and_reallife_mod:font/zzkfz_font.png",
+      "height": 59,
+      "ascent": 0,
+      "chars": [
+        "正在开发中"
+      ]
+    }
+  ]
+}

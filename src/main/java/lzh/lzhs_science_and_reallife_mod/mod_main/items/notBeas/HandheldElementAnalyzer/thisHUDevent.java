@@ -1,6 +1,5 @@
 package lzh.lzhs_science_and_reallife_mod.mod_main.items.notBeas.HandheldElementAnalyzer;
 
-import lzh.lzhs_science_and_reallife_mod.mod_main.client.screen.HUD.DisplayTextInTheMiddleOfTheScreenHUD;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.world.InteractionHand;
@@ -13,7 +12,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
 @Mod.EventBusSubscriber
-public class thisHUD {
+public class thisHUDevent {
     @SubscribeEvent
     @OnlyIn(Dist.CLIENT)
     public static void onRenderGameOverlayPost(RenderGuiOverlayEvent event) {
