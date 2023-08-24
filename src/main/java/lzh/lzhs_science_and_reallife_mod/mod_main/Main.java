@@ -1,6 +1,5 @@
 package lzh.lzhs_science_and_reallife_mod.mod_main;
 
-import lzh.lzhs_science_and_reallife_mod.lib.com.forsteri.unlimitedfluidity.core.ModParticles;
 import lzh.lzhs_science_and_reallife_mod.mod_main.registry.Block.BlockRegistryHandle;
 import lzh.lzhs_science_and_reallife_mod.mod_main.registry.CreativeTab.CreativeModeTabRegistryHandle;
 import lzh.lzhs_science_and_reallife_mod.mod_main.registry.Fluid.FluidRegistryHandle;
@@ -32,7 +31,6 @@ public class Main
         //Tab
         CreativeModeTabRegistryHandle.CREATIVE_MODE_TABS.register(ModEventBus);
 
-        ModParticles.register(ModEventBus);
         MinecraftForge.EVENT_BUS.register(this);
     }
 }
