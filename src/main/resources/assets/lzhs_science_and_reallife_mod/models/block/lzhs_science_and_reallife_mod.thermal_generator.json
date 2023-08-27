@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "lzhs_science_and_reallife_mod:blocks/lzhs_science_and_reallife_mod.thermal_generator"
-  }
-}
