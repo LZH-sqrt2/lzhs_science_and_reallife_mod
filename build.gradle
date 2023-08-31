@@ -146,10 +146,10 @@ dependencies {
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
 
     // Unlimited Fluidity
-    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
-    minecraftLibrary 'org.apfloat:apfloat:1.11.0'
-    minecraftLibrary 'org.jgrapht:jgrapht:1.5.2'
-    minecraftLibrary 'org.jgrapht:jgrapht-core:1.5.2'
+//    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+//    minecraftLibrary 'org.apfloat:apfloat:1.11.0'
+//    minecraftLibrary 'org.jgrapht:jgrapht:1.5.2'
+//    minecraftLibrary 'org.jgrapht:jgrapht-core:1.5.2'
 }
 
 // Example for how to get properties into the manifest for reading at runtime.
