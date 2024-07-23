@@ -1,0 +1,51 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "lzhs_science_and_reallife_mod:item/copper_ingot",
+		"particle": "item/copper_ingot"
+	},
+	"elements": [
+		{
+			"from": [3, 0, 6],
+			"to": [13, 3, 10],
+			"faces": {
+				"north": {"uv": [0, 4, 5, 5.5], "texture": "#0"},
+				"east": {"uv": [5, 1.5, 7, 3], "texture": "#0"},
+				"south": {"uv": [5, 0, 10, 1.5], "texture": "#0"},
+				"west": {"uv": [5, 3, 7, 4.5], "texture": "#0"},
+				"up": {"uv": [5, 2, 0, 0], "texture": "#0"},
+				"down": {"uv": [5, 2, 0, 4], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [82, 0, 0],
+			"translation": [0, 2.25, 6]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [82, 0, 0],
+			"translation": [0, 2.25, 6]
+		},
+		"firstperson_righthand": {
+			"rotation": [38, 0, 0],
+			"translation": [0, 8.5, 5.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [38, 0, 0],
+			"translation": [0, 8.5, 5.75]
+		},
+		"ground": {
+			"translation": [0, 3.5, 0]
+		},
+		"gui": {
+			"rotation": [90, 0, 0],
+			"scale": [1.5, 1.5, 1.5]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -7.75]
+		}
+	}
+}
