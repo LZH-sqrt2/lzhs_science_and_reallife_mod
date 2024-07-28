@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "lzhs_science_and_reallife_mod:block/floodlight"
+    },
+    "lit=true": {
+      "model": "lzhs_science_and_reallife_mod:block/floodlight"
+    }
+  }
+}
