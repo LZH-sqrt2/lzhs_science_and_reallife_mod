@@ -1,7 +1,7 @@
-package lzh.lzhs_science_and_realife_mod.datagenerators.tags;
+package lzh.lzhs_science_and_reallife_mod.datagenerators.tags;
 
-import lzh.lzhs_science_and_realife_mod.main.LSR_Main;
-import lzh.lzhs_science_and_realife_mod.main.registries.Item.LSRItemRegistry;
+import lzh.lzhs_science_and_reallife_mod.main.LSR_Main;
+import lzh.lzhs_science_and_reallife_mod.main.registries.Item.LSRItemRegistry;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;

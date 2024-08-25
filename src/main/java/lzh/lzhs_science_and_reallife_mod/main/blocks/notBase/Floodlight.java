@@ -1,4 +1,4 @@
-package lzh.lzhs_science_and_realife_mod.main.blocks.notBase;
+package lzh.lzhs_science_and_reallife_mod.main.blocks.notBase;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.server.level.ServerLevel;

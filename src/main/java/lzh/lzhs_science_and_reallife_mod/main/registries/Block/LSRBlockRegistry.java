@@ -1,8 +1,8 @@
-package lzh.lzhs_science_and_realife_mod.main.registries.Block;
+package lzh.lzhs_science_and_reallife_mod.main.registries.Block;
 
-import lzh.lzhs_science_and_realife_mod.main.LSR_Main;
-import lzh.lzhs_science_and_realife_mod.main.blocks.notBase.Floodlight;
-import lzh.lzhs_science_and_realife_mod.main.blocks.notBase.ReagentCanner;
+import lzh.lzhs_science_and_reallife_mod.main.LSR_Main;
+import lzh.lzhs_science_and_reallife_mod.main.blocks.notBase.Floodlight;
+import lzh.lzhs_science_and_reallife_mod.main.blocks.notBase.ReagentCanner;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
@@ -12,7 +12,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 
 import java.util.function.Supplier;
 
-import static lzh.lzhs_science_and_realife_mod.main.registries.Block.Helper.registerBlock;
+import static lzh.lzhs_science_and_reallife_mod.main.registries.Block.Helper.registerBlock;
 
 public class LSRBlockRegistry {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(Registries.BLOCK, LSR_Main.MODID);

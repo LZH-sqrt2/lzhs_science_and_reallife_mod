@@ -1,4 +1,4 @@
-package lzh.lzhs_science_and_realife_mod.main.items.itemBase;
+package lzh.lzhs_science_and_reallife_mod.main.items.itemBase;
 
 import net.minecraft.world.item.Item;
 

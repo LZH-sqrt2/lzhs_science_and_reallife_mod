@@ -1,10 +1,8 @@
-package lzh.lzhs_science_and_realife_mod.datagenerators.tags;
+package lzh.lzhs_science_and_reallife_mod.datagenerators.tags;
 
-import lzh.lzhs_science_and_realife_mod.main.LSR_Main;
-import lzh.lzhs_science_and_realife_mod.main.registries.Block.LSRBlockRegistry;
+import lzh.lzhs_science_and_reallife_mod.main.LSR_Main;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
-import net.minecraft.tags.BlockTags;
 import net.neoforged.neoforge.common.data.BlockTagsProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 

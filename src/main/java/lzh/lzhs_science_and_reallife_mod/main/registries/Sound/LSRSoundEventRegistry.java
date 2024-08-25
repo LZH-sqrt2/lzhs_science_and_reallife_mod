@@ -1,6 +1,6 @@
-package lzh.lzhs_science_and_realife_mod.main.registries.Sound;
+package lzh.lzhs_science_and_reallife_mod.main.registries.Sound;
 
-import lzh.lzhs_science_and_realife_mod.main.LSR_Main;
+import lzh.lzhs_science_and_reallife_mod.main.LSR_Main;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.sounds.SoundEvent;
@@ -9,7 +9,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 
 import java.util.function.Supplier;
 
-import static lzh.lzhs_science_and_realife_mod.main.registries.Sound.Helper.registerSoundEvent;
+import static lzh.lzhs_science_and_reallife_mod.main.registries.Sound.Helper.registerSoundEvent;
 
 public class LSRSoundEventRegistry {
     public static final DeferredRegister<SoundEvent> SOUNDS = DeferredRegister.create(Registries.SOUND_EVENT, LSR_Main.MODID);

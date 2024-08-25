@@ -1,4 +1,4 @@
-package lzh.lzhs_science_and_realife_mod.main.blocks.notBase;
+package lzh.lzhs_science_and_reallife_mod.main.blocks.notBase;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;

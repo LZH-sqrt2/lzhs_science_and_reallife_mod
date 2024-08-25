@@ -1,9 +1,9 @@
-package lzh.lzhs_science_and_realife_mod.main.registries.Item;
+package lzh.lzhs_science_and_reallife_mod.main.registries.Item;
 
-import lzh.lzhs_science_and_realife_mod.main.LSR_Main;
-import lzh.lzhs_science_and_realife_mod.main.items.itemBase.IngotItem;
-import lzh.lzhs_science_and_realife_mod.main.items.notBase.ExampleSoundTestItem;
-import lzh.lzhs_science_and_realife_mod.main.registries.Sound.LSRSoundEventRegistry;
+import lzh.lzhs_science_and_reallife_mod.main.LSR_Main;
+import lzh.lzhs_science_and_reallife_mod.main.items.itemBase.IngotItem;
+import lzh.lzhs_science_and_reallife_mod.main.items.notBase.ExampleSoundTestItem;
+import lzh.lzhs_science_and_reallife_mod.main.registries.Sound.LSRSoundEventRegistry;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.RecordItem;

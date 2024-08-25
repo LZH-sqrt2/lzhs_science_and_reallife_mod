@@ -1,4 +1,4 @@
-package lzh.lzhs_science_and_realife_mod.main.registries.Block;
+package lzh.lzhs_science_and_reallife_mod.main.registries.Block;
 
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -6,8 +6,8 @@ import net.minecraft.world.level.block.Block;
 
 import java.util.function.Supplier;
 
-import static lzh.lzhs_science_and_realife_mod.main.registries.Block.LSRBlockRegistry.BLOCKS;
-import static lzh.lzhs_science_and_realife_mod.main.registries.Item.LSRItemRegistry.ITEMS;
+import static lzh.lzhs_science_and_reallife_mod.main.registries.Block.LSRBlockRegistry.BLOCKS;
+import static lzh.lzhs_science_and_reallife_mod.main.registries.Item.LSRItemRegistry.ITEMS;
 
 public class Helper {
     public static Supplier<Block> registerBlock(String name, Supplier<Block> block){

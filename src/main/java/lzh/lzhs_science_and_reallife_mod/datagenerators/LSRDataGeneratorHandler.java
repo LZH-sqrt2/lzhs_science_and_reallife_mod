@@ -1,10 +1,9 @@
-package lzh.lzhs_science_and_realife_mod.datagenerators;
+package lzh.lzhs_science_and_reallife_mod.datagenerators;
 
-import lzh.lzhs_science_and_realife_mod.main.LSR_Main;
-import lzh.lzhs_science_and_realife_mod.datagenerators.tags.LSRBlockTagProvider;
-import lzh.lzhs_science_and_realife_mod.datagenerators.tags.LSRItemTagProvider;
+import lzh.lzhs_science_and_reallife_mod.main.LSR_Main;
+import lzh.lzhs_science_and_reallife_mod.datagenerators.tags.LSRBlockTagProvider;
+import lzh.lzhs_science_and_reallife_mod.datagenerators.tags.LSRItemTagProvider;
 import net.minecraft.data.DataGenerator;
-import net.minecraft.data.DataProvider;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.common.data.BlockTagsProvider;

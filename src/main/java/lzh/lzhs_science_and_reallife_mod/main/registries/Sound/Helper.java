@@ -1,4 +1,4 @@
-package lzh.lzhs_science_and_realife_mod.main.registries.Sound;
+package lzh.lzhs_science_and_reallife_mod.main.registries.Sound;
 
 import net.minecraft.sounds.SoundEvent;
 import net.neoforged.neoforge.registries.DeferredHolder;

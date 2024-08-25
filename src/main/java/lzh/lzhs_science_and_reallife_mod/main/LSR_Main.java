@@ -1,10 +1,10 @@
-package lzh.lzhs_science_and_realife_mod.main;
+package lzh.lzhs_science_and_reallife_mod.main;
 
 import com.mojang.logging.LogUtils;
-import lzh.lzhs_science_and_realife_mod.main.registries.Block.LSRBlockRegistry;
-import lzh.lzhs_science_and_realife_mod.main.registries.CreativeTab.LSRCreativeModeTabRegistry;
-import lzh.lzhs_science_and_realife_mod.main.registries.Item.LSRItemRegistry;
-import lzh.lzhs_science_and_realife_mod.main.registries.Sound.LSRSoundEventRegistry;
+import lzh.lzhs_science_and_reallife_mod.main.registries.Block.LSRBlockRegistry;
+import lzh.lzhs_science_and_reallife_mod.main.registries.CreativeTab.LSRCreativeModeTabRegistry;
+import lzh.lzhs_science_and_reallife_mod.main.registries.Item.LSRItemRegistry;
+import lzh.lzhs_science_and_reallife_mod.main.registries.Sound.LSRSoundEventRegistry;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.Mod;

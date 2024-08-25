@@ -1,6 +1,6 @@
-package lzh.lzhs_science_and_realife_mod.main.items.notBase;
+package lzh.lzhs_science_and_reallife_mod.main.items.notBase;
 
-import lzh.lzhs_science_and_realife_mod.main.registries.Sound.LSRSoundEventRegistry;
+import lzh.lzhs_science_and_reallife_mod.main.registries.Sound.LSRSoundEventRegistry;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResultHolder;
