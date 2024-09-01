@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "lzhs_science_and_reallife_mod:item/tin_ingot"
+  }
+}

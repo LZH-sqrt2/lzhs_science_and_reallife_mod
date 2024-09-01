@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "lzh.lzhs_science_and_reallife_mod.Mixin",
+  "refmap": "lzhs_science_and_reallife_mod.refmap.json",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "entity.ItemEntityMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
