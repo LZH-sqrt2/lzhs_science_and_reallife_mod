@@ -1,4 +1,11 @@
 {
+  "block.lzhs_science_and_reallife_mod.reagent_canner": "试剂灌装器",
+
+  "creative_tab.lzhs_science_and_reallife_mod.lsr_chemicals": "LSR化学品",
+  "creative_tab.lzhs_science_and_reallife_mod.lsr_machines": "LSR机器",
+  "creative_tab.lzhs_science_and_reallife_mod.lsr_materials": "LSR材料",
+  "creative_tab.lzhs_science_and_reallife_mod.lsr_tools": "LSR工具",
+
   "item.lzhs_science_and_reallife_mod.handheld_element_analyzer": "手持元素分析仪",
   "item.lzhs_science_and_reallife_mod.handheld_gas_composition_analyzer": "手持气体成分分析仪",
   "item.lzhs_science_and_reallife_mod.c4_h9_li": "C₄H₉Li 叔丁基锂",
@@ -7,15 +14,8 @@
   "item.lzhs_science_and_reallife_mod.plastic_sheeting": "塑料板",
   "item.lzhs_science_and_reallife_mod.music_disc_bo_na_pe_te_i_to_s": "音乐唱片",
   "item.lzhs_science_and_reallife_mod.music_disc_bo_na_pe_te_i_to_s.desc": "ぼなぺてぃーと♡S",
-  "item.lzhs_science_and_reallife_mod.music_disc_thime": "音乐唱片",
-  "item.lzhs_science_and_reallife_mod.music_disc_thime.desc": "LudoCrypt - Thime",
-  "item.lzhs_science_and_reallife_mod.music_disc_daze": "音乐唱片",
-  "item.lzhs_science_and_reallife_mod.music_disc_daze.desc": "LudoCrypt - Daze",
+  "item.lzhs_science_and_reallife_mod.anthracite": "无烟煤",
 
-  "creative_tab.lzhs_science_and_reallife_mod.lsr_chemicals": "LSR化学品",
-  "creative_tab.lzhs_science_and_reallife_mod.lsr_machines": "LSR机器",
-  "creative_tab.lzhs_science_and_reallife_mod.lsr_materials": "LSR材料",
-  "creative_tab.lzhs_science_and_reallife_mod.lsr_tools": "LSR工具",
-
-  "text.lzhs_science_and_reallife_mod.under_dev": "正在开发中"
+  "text.lzhs_science_and_reallife_mod.under_dev": "正在开发中",
+  "text.lzhs_science_and_reallife_mod.playsound": "播放声音"
 }
