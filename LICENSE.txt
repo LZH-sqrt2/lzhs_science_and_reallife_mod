@@ -37,6 +37,6 @@ CC BY-NC-SA 4.0
 
 =============================================================================
 
-License of not made by ourselves:
+License of files that are not made by ourselves:
 
 Decided by its author.
