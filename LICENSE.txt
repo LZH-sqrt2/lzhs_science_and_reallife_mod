@@ -31,6 +31,12 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 =============================================================================
 
-License of resources:
+License of resources(made by ourselves):
 
 CC BY-NC-SA 4.0
+
+=============================================================================
+
+License of files that are not made by ourselves:
+
+Decided by its author.
