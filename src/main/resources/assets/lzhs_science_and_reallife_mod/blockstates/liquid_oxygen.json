@@ -1,5 +1,7 @@
 {
   "variants": {
-    "": { "model": "lzhs_science_and_reallife_mod:block/liquid_oxygen"}
+    "": {
+      "model": "lzhs_science_and_reallife_mod:block/liquid_oxygen"
+    }
   }
 }

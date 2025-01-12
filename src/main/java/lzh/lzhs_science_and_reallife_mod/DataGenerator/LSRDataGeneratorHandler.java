@@ -1,9 +1,9 @@
 package lzh.lzhs_science_and_reallife_mod.DataGenerator;
 
 import lzh.lzhs_science_and_reallife_mod.DataGenerator.languages.LSRLanguageProvider;
-import lzh.lzhs_science_and_reallife_mod.LSRMain;
 import lzh.lzhs_science_and_reallife_mod.DataGenerator.tags.LSRBlockTagProvider;
 import lzh.lzhs_science_and_reallife_mod.DataGenerator.tags.LSRItemTagProvider;
+import lzh.lzhs_science_and_reallife_mod.LSRMain;
 import net.minecraft.data.DataGenerator;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.Mod;

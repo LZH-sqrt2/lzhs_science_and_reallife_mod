@@ -15,8 +15,6 @@ public class LSRLanguageProvider extends LanguageProvider {
     protected void addTranslations() {
         //items
         this.add(LSRItemsRegistry.itemAnthracite.get(), "Anthracite");
-        this.add(LSRItemsRegistry.itemTEST.get(), "test");
-        this.add(LSRItemsRegistry.itemMusicDisc_bo_na_pe_te_i_to_s.get(), "Music Disc");
         this.add(LSRItemsRegistry.itemTinIngot.get(), "Tin Ingot");
     }
 }

@@ -1,10 +1,10 @@
 package lzh.lzhs_science_and_reallife_mod.Main.Common.registries.Item;
 
 import lzh.lzhs_science_and_reallife_mod.LSRMain;
+import lzh.lzhs_science_and_reallife_mod.Main.Common.items.ExtinguisherWater;
 import lzh.lzhs_science_and_reallife_mod.Main.Common.items.HandheldElementAnalyzer;
 import lzh.lzhs_science_and_reallife_mod.Main.Common.items.itemBase.FuelItem;
 import lzh.lzhs_science_and_reallife_mod.Main.Common.items.itemBase.IngotItem;
-import lzh.lzhs_science_and_reallife_mod.Main.Common.items.ExampleSoundTestItem;
 import lzh.lzhs_science_and_reallife_mod.Main.Common.registries.Sound.LSRSoundEventsRegistry;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.Item;
@@ -22,10 +22,9 @@ public class LSRItemsRegistry {
     //Items
     public static final Supplier<Item> itemTinIngot = ITEMS.register("tin_ingot", () -> new IngotItem(new Item.Properties()));
     public static final Supplier<Item> itemPlasticSheeting = ITEMS.register("plastic_sheeting", () -> new IngotItem(new Item.Properties()));
-    public static final Supplier<Item> itemMusicDisc_bo_na_pe_te_i_to_s = ITEMS.register("music_disc_bo_na_pe_te_i_to_s", () -> new RecordItem(15, LSRSoundEventsRegistry.soundBo_na_pe_te_i_to_s, new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 360));
-    public static final Supplier<Item> itemTEST = ITEMS.register("test", ExampleSoundTestItem::new);
     public static final Supplier<Item> itemAnthracite = ITEMS.register("anthracite", () -> new FuelItem(new Item.Properties(), 300));
-    public static final Supplier<Item> itemHandheldElementAnalyzer =ITEMS.register("handheld_element_analyzer", HandheldElementAnalyzer::new);
+    public static final Supplier<Item> itemHandheldElementAnalyzer = ITEMS.register("handheld_element_analyzer", HandheldElementAnalyzer::new);
+    public static final Supplier<Item> itemExtinguisherWater = ITEMS.register("extinguisher_water", ExtinguisherWater::new);
 
     //BlockItems
 //    public static final Supplier<Item> item_blockReagentCanner = ITEMS.register("reagent_canner", () -> new BlockItem(LSRBlocksRegistry.blockReagentCanner.get(), new Item.Properties()));

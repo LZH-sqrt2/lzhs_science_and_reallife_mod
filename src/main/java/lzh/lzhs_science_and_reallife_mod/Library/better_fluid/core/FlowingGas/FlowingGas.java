@@ -17,11 +17,10 @@ public abstract class FlowingGas extends BaseFlowingFluid {
     protected FlowingGas(Properties properties) {
         super(properties);
         //源头
-        if (this.isSource(this.defaultFluidState())){
+        if (this.isSource(this.defaultFluidState())) {
             this.registerDefaultState(this.getStateDefinition().any()
                     .setValue(DENSITY, MAX_DENSITY));
-        }
-        else {
+        } else {
             this.registerDefaultState(this.getStateDefinition().any()
                     .setValue(DENSITY, MAX_DENSITY - 1)
                     //Flowing Level

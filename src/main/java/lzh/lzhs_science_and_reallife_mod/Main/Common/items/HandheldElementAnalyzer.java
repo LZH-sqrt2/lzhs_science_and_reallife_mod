@@ -1,6 +1,6 @@
 package lzh.lzhs_science_and_reallife_mod.Main.Common.items;
 
-import lzh.lzhs_science_and_reallife_mod.Main.Common.utility.Ways;
+import lzh.lzhs_science_and_reallife_mod.Main.Common.utils.HitUtil;
 import net.minecraft.client.Minecraft;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.network.chat.Component;
@@ -35,16 +35,18 @@ public class HandheldElementAnalyzer extends Item {
 
     @Override
     public InteractionResultHolder<ItemStack> use(Level level, Player player, InteractionHand hand) {
-        String onLookedNamespace = null;
-        String onLookedRegistryName = null;
-        if (Ways.getBlockAllName(player) != null) {
-            onLookedNamespace = Ways.getBlockNamespace(player);
-            onLookedRegistryName = Ways.getBlockRegistryName(player);
+        if (level.isClientSide) {
+            String onLookedNamespace = null;
+            String onLookedRegistryName = null;
+            if (HitUtil.getBlockAllName(player) != null) {
+                onLookedNamespace = HitUtil.getBlockNamespace(player);
+                onLookedRegistryName = HitUtil.getBlockRegistryName(player);
+            }
+            CompoundTag tag = player.getItemInHand(hand).getTag();
+            tag.putString("Namespace", onLookedNamespace);
+            tag.putString("RegistryName", onLookedRegistryName);
+            Minecraft.getInstance().player.sendSystemMessage(Component.translatable(Component.translatable("block.").getString() + onLookedNamespace + "." + onLookedRegistryName));
         }
-        CompoundTag tag = player.getItemInHand(hand).getTag();
-        tag.putString("Namespace", onLookedNamespace);
-        tag.putString("RegistryName", onLookedRegistryName);
-        Minecraft.getInstance().player.sendSystemMessage(Component.translatable(Component.translatable("block.").getString() + onLookedNamespace + "." +onLookedRegistryName));
         return super.use(level, player, hand);
     }
 

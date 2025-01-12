@@ -3,12 +3,10 @@
   "creative_tab.lzhs_science_and_reallife_mod.lsr_machines": "LSR机器",
   "creative_tab.lzhs_science_and_reallife_mod.lsr_materials": "LSR材料",
   "creative_tab.lzhs_science_and_reallife_mod.lsr_tools": "LSR工具",
-
   "item.lzhs_science_and_reallife_mod.handheld_element_analyzer": "ハンドヘルド元素分析器",
   "item.lzhs_science_and_reallife_mod.handheld_gas_composition_analyzer": "ハンドヘルドガス成分分析器",
   "item.lzhs_science_and_reallife_mod.c4_h9_li": "C₄H₉Li tert-ブチルリチウム",
   "item.lzhs_science_and_reallife_mod.sb_f5": "SbF₅ 五氟化锑",
   "item.lzhs_science_and_reallife_mod.tin_ingot": "すずインゴット",
-
   "text.lzhs_science_and_reallife_mod.under_dev": "正在开发中"
 }

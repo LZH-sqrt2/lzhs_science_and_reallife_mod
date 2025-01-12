@@ -1,18 +1,18 @@
 {
-	"parent": "minecraft:item/handheld",
-	"loader": "neoforge:separate_transforms",
-	"base": {
-		"parent": "lzhs_science_and_reallife_mod:item/tin_ingot_3d"
-	},
-	"perspectives": {
-		"gui": {
-			"parent": "lzhs_science_and_reallife_mod:item/tin_ingot_2d"
-		},
-		"ground": {
-			"parent": "lzhs_science_and_reallife_mod:item/tin_ingot_2d"
-		},
-		"fixed": {
-			"parent": "lzhs_science_and_reallife_mod:item/tin_ingot_2d"
-		}
-	}
+  "parent": "minecraft:item/handheld",
+  "loader": "neoforge:separate_transforms",
+  "base": {
+    "parent": "lzhs_science_and_reallife_mod:item/tin_ingot_3d"
+  },
+  "perspectives": {
+    "gui": {
+      "parent": "lzhs_science_and_reallife_mod:item/tin_ingot_2d"
+    },
+    "ground": {
+      "parent": "lzhs_science_and_reallife_mod:item/tin_ingot_2d"
+    },
+    "fixed": {
+      "parent": "lzhs_science_and_reallife_mod:item/tin_ingot_2d"
+    }
+  }
 }

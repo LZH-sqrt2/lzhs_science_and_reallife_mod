@@ -18,9 +18,9 @@ public class LSRBlocksRegistry {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(Registries.BLOCK, LSRMain.MODID);
 
     public static final Supplier<Block> blockReagentCanner = registerBlock("reagent_canner", ReagentCanner::new);
-    public static final Supplier<Block> blockFloodlight = registerBlock("floodlight",()->new Floodlight(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE).strength(6f).requiresCorrectToolForDrops().lightLevel(state->state.getValue(Floodlight.LIT)?15:0)));
+    public static final Supplier<Block> blockFloodlight = registerBlock("floodlight", () -> new Floodlight(BlockBehaviour.Properties.ofFullCopy(Blocks.STONE).strength(6f).requiresCorrectToolForDrops().lightLevel(state -> state.getValue(Floodlight.LIT) ? 15 : 0)));
 
-    public static void register(IEventBus eventBus){
+    public static void register(IEventBus eventBus) {
         BLOCKS.register(eventBus);
     }
 }

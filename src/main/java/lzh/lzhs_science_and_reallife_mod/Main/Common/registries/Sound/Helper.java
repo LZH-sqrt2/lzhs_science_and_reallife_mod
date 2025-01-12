@@ -6,7 +6,7 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import java.util.function.Supplier;
 
 public class Helper {
-    public static DeferredHolder<SoundEvent,SoundEvent> registerSoundEvent(String name, Supplier<SoundEvent> supplier){
+    public static DeferredHolder<SoundEvent, SoundEvent> registerSoundEvent(String name, Supplier<SoundEvent> supplier) {
         return LSRSoundEventsRegistry.SOUNDS.register(name, supplier);
     }
 }

@@ -18,6 +18,5 @@ public class LSRItemTagProvider extends ItemTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider pProvider) {
-        this.tag(ItemTags.MUSIC_DISCS).add(LSRItemsRegistry.itemMusicDisc_bo_na_pe_te_i_to_s.get());
     }
 }

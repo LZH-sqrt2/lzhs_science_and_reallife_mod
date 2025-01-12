@@ -18,7 +18,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import java.util.ArrayList;
 import java.util.List;
 
-// 参考实现AE
 @Mixin(ItemEntity.class)
 public abstract class ItemEntityMixin extends Entity {
 
@@ -28,29 +27,29 @@ public abstract class ItemEntityMixin extends Entity {
 
 
     @Inject(at = @At("RETURN"), method = "tick")
-    void handleEntityTransform(CallbackInfo callbackInfo){
-        if (this.isRemoved()){
+    void handleEntityTransform(CallbackInfo callbackInfo) {
+        if (this.isRemoved()) {
             return;
         }
 
         var self = (ItemEntity) (Object) this;
 
-        if (!self.getItem().is(Items.DIAMOND)){
+        if (!self.getItem().is(Items.DIAMOND)) {
             return;
         }
         final int j = Mth.floor(this.getX());
         final int i = Mth.floor((this.getBoundingBox().minY + this.getBoundingBox().maxY) / 2.0D);
         final int k = Mth.floor(this.getZ());
 
-        FluidState fluidState = this.level().getFluidState(new BlockPos(j,i,k));
-        if (!fluidState.is(FluidTags.WATER)){
+        FluidState fluidState = this.level().getFluidState(new BlockPos(j, i, k));
+        if (!fluidState.is(FluidTags.WATER)) {
             return;
         }
 
-        if (level().isClientSide){
+        if (level().isClientSide) {
             // 添加蜡烛的粒子特效
 
-        }else{
+        } else {
             var level = this.level();
 
             var region = new AABB(this.getX() - 1, this.getY() - 1, this.getZ() - 1, this.getX() + 1,
@@ -61,20 +60,20 @@ public abstract class ItemEntityMixin extends Entity {
             List<ItemEntity> discardItem = new ArrayList<>();
             for (ItemEntity itemEntity : itemEntities) {
                 // 遍历所有的实体将一个 红石的 和 钻石 和煤炭的物品实体添加进入
-                if (itemEntity.getItem().is(Items.REDSTONE) || itemEntity.getItem().is(Items.COAL) || itemEntity.getItem().is(Items.DIAMOND)){
+                if (itemEntity.getItem().is(Items.REDSTONE) || itemEntity.getItem().is(Items.COAL) || itemEntity.getItem().is(Items.DIAMOND)) {
                     discardItem.add(itemEntity);
                 }
             }
 
             // 如果discardItem 的长度小于3 直接发挥
-            if (discardItem.size() < 3){
+            if (discardItem.size() < 3) {
                 return;
             }
             // 遍历discardItem物品，如果大于等于1则减少一个，如果小于等于0则移除
             for (ItemEntity itemEntity : discardItem) {
-                if (itemEntity.getItem().getCount() > 0){
+                if (itemEntity.getItem().getCount() > 0) {
                     itemEntity.getItem().setCount(itemEntity.getItem().getCount() - 1);
-                }else if (itemEntity.getItem().getCount() <= 0){
+                } else if (itemEntity.getItem().getCount() <= 0) {
                     itemEntity.discard();
                 }
             }
