@@ -1,4 +1,4 @@
-package lzh.lzhs_science_and_reallife_mod.Main.Common.utility;
+package lzh.lzhs_science_and_reallife_mod.Main.Common.utils;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.util.Mth;
